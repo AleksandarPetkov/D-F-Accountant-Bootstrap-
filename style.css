@@ -12,7 +12,7 @@ main {
 .video-background {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: calc(100vh - 100px);
 }
 
 #bgvid{
@@ -23,6 +23,25 @@ main {
   height: auto;
 }
 
+.caption {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.style-text {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Catamaran', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.style-text span{
+  font-size: 40px;
+  font-weight: 700;
+  color: #BF2020;
+}
 /*============= COURSE SECTION =============*/
 
 .col-md-8 {
@@ -39,14 +58,15 @@ main {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-radius: 9px;
+  border-color: #BF2020;
+  background-color: #BF2020;
   color: white;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
+  border-color: white;
+  background-color: #BF2020;
   color: white;
 }
 
