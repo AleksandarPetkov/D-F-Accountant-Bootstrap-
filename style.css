@@ -63,6 +63,8 @@ main {
   background-color: #BF2020;
   color: white;
 }
+
+
 .btn-secondary:hover,
 .btn-secondary:focus {
   border-color: white;
@@ -71,6 +73,31 @@ main {
 }
 
 
+.container-fluid .row i {
+  padding-top: 10px;
+  font-size: 50px;
+  color: #BF2020;
+}
+
+.container-fluid .row .card:hover {
+  color: #BF2020;
+}
+
+/* footer section styling */
+footer{
+  background: #111;
+  padding: 15px 23px;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
